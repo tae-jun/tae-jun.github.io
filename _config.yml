@@ -16,7 +16,7 @@ darkmode: true
 
 # Social links
 twitter_username: taejun_kim_
-github_username:  tae-jun
+github_username: tae-jun
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -59,11 +59,15 @@ about_content: | # this will include new lines to allow paragraphs
 
   I've been wondering how people see beauty in music, and somehow, I currently work on building machines that can understand the beauty and assist music for humans.
 
-
 content:
   - title: Publications
     layout: list
     content:
+      - layout: top
+        title: Joint Estimation of Fader and Equalizer Gains of DJ Mixers using Convex Optimization
+        sub_title: <ins>Taejun Kim</ins>, Yi-Hsuan Yang, and Juhan Nam
+        caption: Proceedings of the International Conference on Digital Audio Effects (DAFx), 2022
+        description: | # this will include new lines to allow paragraphs
 
       - layout: top
         title: Reverse-Engineering The Transition Regions of Real-World DJ Mixes using Sub-band Analysis with Convex Optimization
@@ -130,6 +134,15 @@ content:
         caption: 2012 - 2017
         sub_title: B.S. in Electrical and Computer Engineering
 
+  - title: Experiences # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        title: Neutune
+        caption: 2020 - present
+        sub_title: "Co-founder"
+        description: | # this will include new lines to allow paragraphs
+          [[web]](https://neutune.com)
 
   - title: Research Interests # Title for the section
     layout: list # Type of content section (list/text)
@@ -140,7 +153,6 @@ content:
   - title: Skills # Title for the section
     layout: list # Type of content section (list/text)
     content:
-
       - layout: left
         sub_title: Machine Learning
         description: | # this will include new lines to allow paragraphs
@@ -181,7 +193,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           Vinyl & Digital DJ, Electric Bass Guitar, Acoustic Fingerstyle Guitar
 
-
   # - title: A Little More About Me
   #   layout: text
   #   content: | # this will include new lines to allow paragraphs
@@ -191,7 +202,7 @@ content:
   #     - Knitting
   #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-  #     Look at this cool image  
+  #     Look at this cool image
   #     ![Trees](images/landscape-trees.jpg "Trees")
 
 # Footer
@@ -207,4 +218,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
