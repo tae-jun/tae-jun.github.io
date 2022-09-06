@@ -68,6 +68,9 @@ content:
         sub_title: <ins>Taejun Kim</ins>, Yi-Hsuan Yang, and Juhan Nam
         caption: Proceedings of the International Conference on Digital Audio Effects (DAFx), 2022
         description: | # this will include new lines to allow paragraphs
+          [[pdf]](https://dafx2020.mdw.ac.at/proceedings/papers/DAFx20in22_paper_33.pdf)
+          [[dataset]](https://github.com/mir-aidj/djmix-dataset)
+          [[code]](https://github.com/mir-aidj/djmix-dataset/blob/main/notes/tutorial.ipynb)
 
       - layout: top
         title: Reverse-Engineering The Transition Regions of Real-World DJ Mixes using Sub-band Analysis with Convex Optimization
