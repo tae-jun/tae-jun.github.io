@@ -64,6 +64,11 @@ content:
     layout: list
     content:
       - layout: top
+        title: Temporal Feedback Convolutional Recurrent Neural Networks for Speech Command Recognition
+        sub_title: <ins>Taejun Kim</ins>, and Juhan Nam
+        caption: Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC), 2022
+      
+      - layout: top
         title: Joint Estimation of Fader and Equalizer Gains of DJ Mixers using Convex Optimization
         sub_title: <ins>Taejun Kim</ins>, Yi-Hsuan Yang, and Juhan Nam
         caption: Proceedings of the International Conference on Digital Audio Effects (DAFx), 2022
