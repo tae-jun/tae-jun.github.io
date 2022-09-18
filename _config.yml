@@ -67,6 +67,9 @@ content:
         title: Temporal Feedback Convolutional Recurrent Neural Networks for Speech Command Recognition
         sub_title: <ins>Taejun Kim</ins>, and Juhan Nam
         caption: Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC), 2022
+        description: | # this will include new lines to allow paragraphs
+          [[pdf]](https://arxiv.org/abs/1911.01803)
+          [[code]](https://github.com/tae-jun/temporal-feedback-crnn)
       
       - layout: top
         title: Joint Estimation of Fader and Equalizer Gains of DJ Mixers using Convex Optimization
