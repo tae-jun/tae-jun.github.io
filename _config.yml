@@ -70,6 +70,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           [[pdf]](https://arxiv.org/abs/1911.01803)
           [[code]](https://github.com/tae-jun/temporal-feedback-crnn)
+          [[slides]](https://www.dropbox.com/s/33ex4975epi5y8j/apsipa2022.pdf?dl=0)
       
       - layout: top
         title: Joint Estimation of Fader and Equalizer Gains of DJ Mixers using Convex Optimization
