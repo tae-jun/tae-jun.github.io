@@ -117,6 +117,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           [[pdf]](https://arxiv.org/abs/1710.10451)
           [[code]](https://github.com/tae-jun/resemul)
+          [[poster]](https://www.dropbox.com/s/3jzj7creym1gof5/icassp2018poster-v0.pdf?dl=0)
 
       - layout: top
         title: Raw Waveform-based Audio Classification Using Sample-level CNN Architectures
