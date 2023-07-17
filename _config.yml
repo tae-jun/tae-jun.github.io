@@ -64,9 +64,16 @@ content:
     layout: list
     content:
       - layout: top
+        title: All-In-One Metrical And Functional Structure Analysis With Neighborhood Attentions on Demixed Audio
+        sub_title: <ins>Taejun Kim</ins>, and Juhan Nam
+        caption: IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA), 2023
+        description: | # this will include new lines to allow paragraphs
+          [[demo]](https://taejun.kim/music-dissector/)
+
+      - layout: top
         title: Temporal Feedback Convolutional Recurrent Neural Networks for Speech Command Recognition
         sub_title: <ins>Taejun Kim</ins>, and Juhan Nam
-        caption: Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC), 2022
+        caption: The Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC), 2022
         description: | # this will include new lines to allow paragraphs
           [[pdf]](https://arxiv.org/abs/1911.01803)
           [[code]](https://github.com/tae-jun/temporal-feedback-crnn)
@@ -75,7 +82,7 @@ content:
       - layout: top
         title: Joint Estimation of Fader and Equalizer Gains of DJ Mixers using Convex Optimization
         sub_title: <ins>Taejun Kim</ins>, Yi-Hsuan Yang, and Juhan Nam
-        caption: Proceedings of the International Conference on Digital Audio Effects (DAFx), 2022
+        caption: The International Conference on Digital Audio Effects (DAFx), 2022
         description: | # this will include new lines to allow paragraphs
           [[pdf]](https://mac.kaist.ac.kr/pubs/KimYangNam-dafx2022.pdf)
           [[dataset]](https://github.com/mir-aidj/djmix-dataset)
@@ -85,7 +92,7 @@ content:
       - layout: top
         title: Reverse-Engineering The Transition Regions of Real-World DJ Mixes using Sub-band Analysis with Convex Optimization
         sub_title: <ins>Taejun Kim</ins>, Yi-Hsuan Yang, and Juhan Nam
-        caption: Proceedings of the International Conference on New Interfaces for Musical Expression (NIME), 2021
+        caption: The International Conference on New Interfaces for Musical Expression (NIME), 2021
         description: | # this will include new lines to allow paragraphs
           [[pdf]](https://nime.pubpub.org/pub/g7avj1a7)
           [[code]](https://github.com/mir-aidj/transition-analysis)
@@ -95,7 +102,7 @@ content:
       - layout: top
         title: A Computational Analysis of Real-World DJ Mixes using Mix-To-Track Subsequence Alignment
         sub_title: <ins>Taejun Kim</ins>, Minsuk Choi, Evan Sacks, Yi-Hsuan Yang, and Juhan Nam
-        caption: Proceedings of the International Society for Music Information Retrieval Conference (ISMIR), 2020
+        caption: The International Society for Music Information Retrieval Conference (ISMIR), 2020
         description: | # this will include new lines to allow paragraphs
           [[pdf]](https://arxiv.org/abs/2008.10267)
           [[code]](https://github.com/mir-aidj/djmix-analysis/)
@@ -113,7 +120,7 @@ content:
       - layout: top
         title: Sample-level CNN Architectures for Music Auto-tagging Using Raw Waveforms
         sub_title: <ins>Taejun Kim</ins>, Jongpil Lee, and Juhan Nam
-        caption: Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2018
+        caption: IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2018
         description: | # this will include new lines to allow paragraphs
           [[pdf]](https://arxiv.org/abs/1710.10451)
           [[code]](https://github.com/tae-jun/resemul)
