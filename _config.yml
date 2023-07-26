@@ -139,9 +139,15 @@ content:
       - layout: top
         title: Korea Advanced Institute of Science and Technology (KAIST)
         caption: 2019 - present
-        sub_title: "Ph.D Student in Graduate School of Culture Technology"
+        sub_title: "Ph.D Candidate in Graduate School of Culture Technology"
         description: | # this will include new lines to allow paragraphs
           @ Music and Audio Computing Lab (Advisor: Juhan Nam)
+
+          Dissertation Title (tentative): A Computational Approach to the Analysis of Electronic Dance Music and DJ Mixes
+          
+          Proposal Slides:
+          [[keynote]](https://www.dropbox.com/scl/fi/d53tx6i1srum4ncxrriz2/taejun-proposal-public.key?rlkey=43d9bcm9nsxwdxaqzvnqcgw8b&dl=0)
+          [[pdf]](https://www.dropbox.com/scl/fi/ui71j0846ud96svhffl5v/taejun-proposal-public.pdf?rlkey=378yzxv9hb6cv3oyte0e7moko&dl=0)
 
       - layout: top
         title: University of Seoul
