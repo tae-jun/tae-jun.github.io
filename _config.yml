@@ -68,6 +68,7 @@ content:
         sub_title: <ins>Taejun Kim</ins>, and Juhan Nam
         caption: IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA), 2023
         description: | # this will include new lines to allow paragraphs
+          [[pdf]](http://arxiv.org/abs/2307.16425)
           [[demo]](https://taejun.kim/music-dissector/)
 
       - layout: top
