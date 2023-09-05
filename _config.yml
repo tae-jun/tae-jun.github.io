@@ -69,7 +69,9 @@ content:
         caption: IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA), 2023
         description: | # this will include new lines to allow paragraphs
           [[pdf]](http://arxiv.org/abs/2307.16425)
-          [[demo]](https://taejun.kim/music-dissector/)
+          [[python package]](https://github.com/mir-aidj/all-in-one)
+          [[visual demo]](https://taejun.kim/music-dissector/)
+          [[hugging face space]](https://huggingface.co/spaces/taejunkim/all-in-one/)
 
       - layout: top
         title: Temporal Feedback Convolutional Recurrent Neural Networks for Speech Command Recognition
