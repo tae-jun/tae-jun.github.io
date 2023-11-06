@@ -71,6 +71,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           [[pdf]](http://arxiv.org/abs/2307.16425)
           [[python package]](https://github.com/mir-aidj/all-in-one)
+          [[ai dj demo]](https://taejun.kim/dj-structfreak)
           [[visual demo]](https://taejun.kim/music-dissector/)
           [[hugging face space]](https://huggingface.co/spaces/taejunkim/all-in-one/)
 
