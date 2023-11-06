@@ -61,6 +61,68 @@ about_content: | # this will include new lines to allow paragraphs
   I've been wondering how people see beauty in music, and somehow, I currently work on building machines that can understand the beauty and assist music for humans.
 
 content:
+  - title: Demonstrations
+    layout: list
+    content:
+      - layout: top
+        # title: AI DJ Demo
+        # sub_title: DJ StructFreak
+        # caption: asdf [[link]](https://taejun.kim/dj-structfreak)
+        description: | # this will include new lines to allow paragraphs
+          <div class="row">
+            <div class="col-xs-12 col-sm-4">
+              <div class="details" style="text-align: center;">
+                <h4>DJ StructFreak 🤖</h4>
+                <p>AI DJ Demo</p>
+                <a
+                  class="mt-2"
+                  href="https://taejun.kim/dj-structfreak"
+                  target="_blank"
+                >
+                  <img
+                    src="images/dj-structfreak.png" 
+                    style="border-radius: 10px"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="mb-4 mb-sm-0"></div>
+
+            <div class="col-xs-12 col-sm-4">
+              <div class="details" style="text-align: center;">
+                <h4>Music Dissector 🔪</h4>
+                <p>Interactive Music Structure Visualizer</p>
+                <a
+                  href="https://taejun.kim/music-dissector"
+                  target="_blank"
+                >
+                  <img
+                    src="images/music-dissector.png" 
+                    style="border-radius: 10px"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="mb-4 mb-sm-0"></div>
+
+            <div class="col-xs-12 col-sm-4">
+              <div class="details" style="text-align: center;">
+                <h4>DJ Mixer Analyzer 🎛️</h4>
+                <p>Explains How DJ Controlled Mixer</p>
+                <a
+                  class="mt-2"
+                  href="https://mir-aidj.github.io/transition-analysis/"
+                  target="_blank"
+                >
+                  <img
+                    src="images/dj-mixer-analyzer.png" 
+                    style="border-radius: 10px"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>      
+  
   - title: Publications
     layout: list
     content:
