@@ -61,7 +61,7 @@ about_content: | # this will include new lines to allow paragraphs
   I've been wondering how people see beauty in music, and somehow, I currently work on building machines that can understand the beauty and assist music for humans.
 
 content:
-  - title: Demonstrations
+  - title: Web Demonstrations
     layout: list
     content:
       - layout: top
