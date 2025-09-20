@@ -9,19 +9,19 @@ version: 2
 name: Taejun Kim
 title: MIR Researcher, Software/ML Engineer
 email: taejun.kim.official {at} gmail.com
-website: taejun.kim
+# website: taejun.kim
 
 # Dark Mode (true/false/never)
 darkmode: true
 
 # Social links
-twitter_username: taejun_kim_
+# twitter_username: taejun_kim_
 github_username: tae-jun
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: aco4u
+instagram_username: dr.aco.comin
 # linkedin_username: taejunk
 # xing_username: jekyll
 # pinterest_username: jekyll
@@ -49,18 +49,33 @@ gtag: "G-PCNF89DBEJ"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  When I was an undergraduate, I took semesters off to be a guitarist but had to program for a living.
-  However, I realized I enjoy programming and quite good at it so I came back to school.
-  Since then I have improved my software and data engineering skills but my passion for music was aroused again 
-  so I joined [Music and Audio Computing Lab](https://mac.kaist.ac.kr/) dreaming of making <mark>AI DJ</mark>. 
-  The first research I wanted to do for AI DJ was making a machine listening system, therefore I’ve worked on end‐to‐end audio classification. 
+  I am an instrument maker.
+  
+  While traditional makers have used wood, metal, circuits, or rule-based software synthesizers,
+  
+  I create instruments with AI.
 
-  I also worked as a resident DJ at a dance club called Vent until before COVID‐19 and still enjoy playing music at events. 
-  With the domain knowledge, I work on understanding the creative process of DJing using computational methods and creating AI DJ.
+  <br>
+  
+  Currently, I work on generative music models at Neutune for the MixAudio service.
 
-  I've been wondering how people see beauty in music, and somehow, I currently work on building machines that can understand the beauty and assist music for humans.
+  <br>
+  
+  During my PhD, I focused on DJ mix analysis and music structure analysis.
 
 content:
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top
+        title: Neutune
+        caption: 2020 - present
+        sub_title: "Music AI Researcher / Co-founder"
+        description: | # this will include new lines to allow paragraphs
+          [[ company ](https://neutune.com)]
+          &nbsp;&nbsp;[[ service ](https://mix.audio/)]
+          
   - title: Web Demonstrations
     layout: list
     content:
@@ -131,11 +146,11 @@ content:
         sub_title: <ins>Taejun Kim</ins>, and Juhan Nam
         caption: IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA), 2023
         description: | # this will include new lines to allow paragraphs
-          [[pdf]](http://arxiv.org/abs/2307.16425)
-          [[python package]](https://github.com/mir-aidj/all-in-one)
-          [[ai dj demo]](https://taejun.kim/dj-structfreak)
-          [[visual demo]](https://taejun.kim/music-dissector/)
-          [[hugging face space]](https://huggingface.co/spaces/taejunkim/all-in-one/)
+          [[ pdf ](http://arxiv.org/abs/2307.16425)]
+          &nbsp;&nbsp;[[ python package ](https://github.com/mir-aidj/all-in-one)]
+          &nbsp;&nbsp;[[ ai dj demo ](https://taejun.kim/dj-structfreak)]
+          &nbsp;&nbsp;[[ visual demo ](https://taejun.kim/music-dissector/)]
+          &nbsp;&nbsp;[[ hugging face space ](https://huggingface.co/spaces/taejunkim/all-in-one/)]
 
           <span style="color: #FFA500;">\*\*\* Best Student Paper Award \*\*\*</span>
 
@@ -144,79 +159,81 @@ content:
         sub_title: <ins>Taejun Kim</ins>, and Juhan Nam
         caption: The Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC), 2022
         description: | # this will include new lines to allow paragraphs
-          [[pdf]](https://arxiv.org/abs/1911.01803)
-          [[code]](https://github.com/tae-jun/temporal-feedback-crnn)
-          [[slides]](https://www.dropbox.com/s/33ex4975epi5y8j/apsipa2022.pdf?dl=0)
+          [[ pdf ](https://arxiv.org/abs/1911.01803)]
+          &nbsp;&nbsp;[[ code ](https://github.com/tae-jun/temporal-feedback-crnn)]
+          &nbsp;&nbsp;[[ slides ](https://www.dropbox.com/s/33ex4975epi5y8j/apsipa2022.pdf?dl=0)]
       
       - layout: top
         title: Joint Estimation of Fader and Equalizer Gains of DJ Mixers using Convex Optimization
         sub_title: <ins>Taejun Kim</ins>, Yi-Hsuan Yang, and Juhan Nam
         caption: The International Conference on Digital Audio Effects (DAFx), 2022
         description: | # this will include new lines to allow paragraphs
-          [[pdf]](https://mac.kaist.ac.kr/pubs/KimYangNam-dafx2022.pdf)
-          [[dataset]](https://github.com/mir-aidj/djmix-dataset)
-          [[code]](https://github.com/mir-aidj/djmix-dataset/blob/main/notes/tutorial.ipynb)
-          [[slides]](https://www.dropbox.com/s/m10g4hfqg3ohebr/dafx2022.pdf?dl=0)
+          [[ pdf ](https://mac.kaist.ac.kr/pubs/KimYangNam-dafx2022.pdf)]
+          &nbsp;&nbsp;[[ dataset ](https://github.com/mir-aidj/djmix-dataset)]
+          &nbsp;&nbsp;[[ code ](https://github.com/mir-aidj/djmix-dataset/blob/main/notes/tutorial.ipynb)]
+          &nbsp;&nbsp;[[ slides ](https://www.dropbox.com/s/m10g4hfqg3ohebr/dafx2022.pdf?dl=0)]
 
       - layout: top
         title: Reverse-Engineering The Transition Regions of Real-World DJ Mixes using Sub-band Analysis with Convex Optimization
         sub_title: <ins>Taejun Kim</ins>, Yi-Hsuan Yang, and Juhan Nam
         caption: The International Conference on New Interfaces for Musical Expression (NIME), 2021
         description: | # this will include new lines to allow paragraphs
-          [[pdf]](https://nime.pubpub.org/pub/g7avj1a7)
-          [[code]](https://github.com/mir-aidj/transition-analysis)
-          [[demo]](https://mir-aidj.github.io/transition-analysis/)
-          [[video]](https://youtu.be/ju0P-Zq8Bwo)
+          [[ pdf ](https://nime.pubpub.org/pub/g7avj1a7)]
+          &nbsp;&nbsp;[[ code ](https://github.com/mir-aidj/transition-analysis)]
+          &nbsp;&nbsp;[[ demo ](https://mir-aidj.github.io/transition-analysis/)]
+          &nbsp;&nbsp;[[ video ](https://youtu.be/ju0P-Zq8Bwo)]
 
       - layout: top
         title: A Computational Analysis of Real-World DJ Mixes using Mix-To-Track Subsequence Alignment
         sub_title: <ins>Taejun Kim</ins>, Minsuk Choi, Evan Sacks, Yi-Hsuan Yang, and Juhan Nam
         caption: The International Society for Music Information Retrieval Conference (ISMIR), 2020
         description: | # this will include new lines to allow paragraphs
-          [[pdf]](https://arxiv.org/abs/2008.10267)
-          [[code]](https://github.com/mir-aidj/djmix-analysis/)
-          [[poster]](https://mir-aidj.github.io/djmix-analysis/)
-          [[video]](https://youtu.be/rC1e5XAyEQw)
+          [[ pdf ](https://arxiv.org/abs/2008.10267)]
+          &nbsp;&nbsp;[[ code ](https://github.com/mir-aidj/djmix-analysis/)]
+          &nbsp;&nbsp;[[ poster ](https://mir-aidj.github.io/djmix-analysis/)]
+          &nbsp;&nbsp;[[ video ](https://youtu.be/rC1e5XAyEQw)]
 
       - layout: top
         title: Comparison and Analysis of SampleCNN Architectures for Audio Classification
         sub_title: <ins>Taejun Kim</ins>, Jongpil Lee, and Juhan Nam
         caption: IEEE Journal of Selected Topics in Signal Processing, 2019
         description: | # this will include new lines to allow paragraphs
-          [[pdf]](https://ieeexplore.ieee.org/document/8681654)
-          [[code]](https://github.com/tae-jun/sampleaudio)
+          [[ pdf ](https://ieeexplore.ieee.org/document/8681654)]
+          &nbsp;&nbsp;[[ code ](https://github.com/tae-jun/sampleaudio)]
 
       - layout: top
         title: Sample-level CNN Architectures for Music Auto-tagging Using Raw Waveforms
         sub_title: <ins>Taejun Kim</ins>, Jongpil Lee, and Juhan Nam
         caption: IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2018
         description: | # this will include new lines to allow paragraphs
-          [[pdf]](https://arxiv.org/abs/1710.10451)
-          [[code]](https://github.com/tae-jun/resemul)
-          [[poster]](https://www.dropbox.com/s/3jzj7creym1gof5/icassp2018poster-v0.pdf?dl=0)
+          [[ pdf ](https://arxiv.org/abs/1710.10451)]
+          &nbsp;&nbsp;[[ code ](https://github.com/tae-jun/resemul)]
+          &nbsp;&nbsp;[[ poster ](https://www.dropbox.com/s/3jzj7creym1gof5/icassp2018poster-v0.pdf?dl=0)]
 
       - layout: top
         title: Raw Waveform-based Audio Classification Using Sample-level CNN Architectures
         sub_title: Jongpil Lee, <ins>Taejun Kim</ins>, Jiyoung Park, and Juhan Nam
         caption: Machine Learning for Audio Signal Processing Workshop, Neural Information Processing Systems (NIPS), 2017
         description: | # this will include new lines to allow paragraphs
-          [[pdf]](https://arxiv.org/abs/1712.00866)
+          [[ pdf ](https://arxiv.org/abs/1712.00866)]
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top
         title: Korea Advanced Institute of Science and Technology (KAIST)
-        caption: 2019 - present
-        sub_title: "Ph.D Candidate in Graduate School of Culture Technology"
+        caption: 2019 - 2024
+        sub_title: "Ph.D in Graduate School of Culture Technology (Music Information Retrieval)"
         description: | # this will include new lines to allow paragraphs
-          @ Music and Audio Computing Lab (Advisor: Juhan Nam)
+          @ Music and Audio Computing Lab (Advisor: Juhan Nam) [[ site ](https://mac.kaist.ac.kr/)]
 
-          Dissertation Title (tentative): A Computational Approach to the Analysis of Electronic Dance Music and DJ Mixes
+          **Dissertation:** A Computational Approach to the Analysis of Electronic Dance Music and DJ Mixes
           
-          Proposal Slides:
-          [[keynote]](https://www.dropbox.com/scl/fi/d53tx6i1srum4ncxrriz2/taejun-proposal-public.key?rlkey=43d9bcm9nsxwdxaqzvnqcgw8b&dl=0)
-          [[pdf]](https://www.dropbox.com/scl/fi/ui71j0846ud96svhffl5v/taejun-proposal-public.pdf?rlkey=378yzxv9hb6cv3oyte0e7moko&dl=0)
+          [ proposal [keynote](https://www.dropbox.com/scl/fi/d53tx6i1srum4ncxrriz2/taejun-proposal-public.key?rlkey=43d9bcm9nsxwdxaqzvnqcgw8b&dl=0)
+            | [ pdf ](https://www.dropbox.com/scl/fi/ui71j0846ud96svhffl5v/taejun-proposal-public.pdf?rlkey=378yzxv9hb6cv3oyte0e7moko&dl=0)]
+          &nbsp;&nbsp;[ defense [keynote](https://www.dropbox.com/scl/fi/4fxjkeotjvr8cxoph86kq/taejun_defense.key?rlkey=q1kjjt52p42dddhd2fq17f0d3&dl=0)
+            | [ pdf ](https://www.dropbox.com/scl/fi/l9s3e7sayzbfgmo0k1r3m/taejun_defense.pdf?rlkey=p0ji6kxfsjymq0athfdje8do5&dl=0)]
+          &nbsp;&nbsp;[ thesis [pdf](https://www.dropbox.com/scl/fi/gteey6lhqh5pmtvwvvkqm/taejun_thesis.pdf?rlkey=fg4b21byv131lfi3gya0qqcgj&dl=0) ]
 
       - layout: top
         title: University of Seoul
@@ -230,21 +247,11 @@ content:
         caption: 2012 - 2017
         sub_title: B.S. in Electrical and Computer Engineering
 
-  - title: Experiences # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top
-        title: Neutune
-        caption: 2020 - present
-        sub_title: "Co-founder"
-        description: | # this will include new lines to allow paragraphs
-          [[web]](https://neutune.com)
-
   - title: Research Interests # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        sub_title: AI DJ, Music Information Retrieval, Machine Learning, Signal Processing, Musical Applications
+        sub_title: Generative Music Models, AI DJ, Music Information Retrieval, Machine Learning, Signal Processing, Musical Applications
 
   - title: Skills # Title for the section
     layout: list # Type of content section (list/text)
