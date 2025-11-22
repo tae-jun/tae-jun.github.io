@@ -143,7 +143,7 @@ content:
     content:
 
       - layout: top
-        title: From Generation to Attribution: Music AI Agent Architectures for the Post-Streaming Era
+        title: "From Generation to Attribution: Music AI Agent Architectures for the Post-Streaming Era"
         sub_title: Wonil Kim, Hyeongseok Wi, Seungsoon Park, <ins>Taejun Kim</ins>, Sangeun Keum, Keunhyoung Kim, Taewan Kim, Jongmin Jung, Taehyoung Kim, Gaetan Guerrero, Mael Le Goff, Julie Po, Dongjoo Moon, Juhan Nam, and Jongpil Lee
         caption: NeurIPS 2025 Workshop on AI for Music
         description: | # this will include new lines to allow paragraphs
