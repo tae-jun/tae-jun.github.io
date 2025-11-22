@@ -149,8 +149,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           [[ pdf ](https://arxiv.org/abs/2510.20276)]
 
-        This paper proposes new architectures for music AI agents that go beyond audio generation, focusing on transparent attribution and interpretability in music creation. The work addresses challenges faced in the post-streaming era and suggests frameworks to improve accountability, fair credit, and transparency in AI-assisted music production.
-
       - layout: top
         title: All-In-One Metrical And Functional Structure Analysis With Neighborhood Attentions on Demixed Audio
         sub_title: <ins>Taejun Kim</ins>, and Juhan Nam
