@@ -141,12 +141,22 @@ content:
   - title: Publications
     layout: list
     content:
+
+      - layout: top
+        title: From Generation to Attribution: Music AI Agent Architectures for the Post-Streaming Era
+        sub_title: Wonil Kim, Hyeongseok Wi, Seungsoon Park, <ins>Taejun Kim</ins>, Sangeun Keum, Keunhyoung Kim, Taewan Kim, Jongmin Jung, Taehyoung Kim, Gaetan Guerrero, Mael Le Goff, Julie Po, Dongjoo Moon, Juhan Nam, and Jongpil Lee
+        caption: NeurIPS 2025 Workshop on AI for Music
+        description: | # this will include new lines to allow paragraphs
+          [[ pdf ](https://arxiv.org/abs/2510.20276)]
+
+        This paper proposes new architectures for music AI agents that go beyond audio generation, focusing on transparent attribution and interpretability in music creation. The work addresses challenges faced in the post-streaming era and suggests frameworks to improve accountability, fair credit, and transparency in AI-assisted music production.
+
       - layout: top
         title: All-In-One Metrical And Functional Structure Analysis With Neighborhood Attentions on Demixed Audio
         sub_title: <ins>Taejun Kim</ins>, and Juhan Nam
         caption: IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (WASPAA), 2023
         description: | # this will include new lines to allow paragraphs
-          [[ pdf ](http://arxiv.org/abs/2307.16425)]
+          [[ pdf ](https://arxiv.org/abs/2307.16425)]
           &nbsp;&nbsp;[[ python package ](https://github.com/mir-aidj/all-in-one)]
           &nbsp;&nbsp;[[ ai dj demo ](https://taejun.kim/dj-structfreak)]
           &nbsp;&nbsp;[[ visual demo ](https://taejun.kim/music-dissector/)]
